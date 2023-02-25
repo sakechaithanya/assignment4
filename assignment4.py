@@ -12,3 +12,13 @@ def triple(y):
     return 3*y
 result=list(map(triple,lis))
 print(result)
+
+#3q Write a Python program to square the elements of a list using map() function.
+def square(z):
+    return z*z
+lis1=[]
+num=int(input('enter the number:'))
+for i in range(1,num):
+    lis1.append(i)
+output=list(map(square,lis1))    
+print(output)
